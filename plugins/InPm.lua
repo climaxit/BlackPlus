@@ -255,15 +255,15 @@ end
 
 return {
     patterns = {
-	"^[#!/](help)$",
-	"^[#!/](pmhelp)$",
-	"^[#!/](join) (.*) (support)$",
-    "^[#!/](kickme) (.*)$",
-	"^([Hh]elp)$",
-	"^([Pp]mhelp)$",
-	"^([Jj]oin) (.*) (support)$",
-    "^([Kk]ickme) (.*)$",
-    "^!!tgservice (chat_add_user)$",
+	--"^[#!/](help)$",
+	---"^[#!/](pmhelp)$",
+----	----"^[#!/](join) (.*) (support)$",
+  ---  "^[#!/](kickme) (.*)$",
+	---"^([Hh]elp)$",
+	--"^([Pp]mhelp)$",
+-----	"^([Jj]oin) (.*) (support)$",
+ --   "^([Kk]ickme) (.*)$",
+   -- "^!!tgservice (chat_add_user)$",
     },
     run = run,
 	pre_process = pre_process
